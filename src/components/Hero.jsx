@@ -1,13 +1,14 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { MailIcon } from "@heroicons/react/outline";
+
 
 const Hero = () => {
   return (
     <div className="w-full h-screen bg-zinc-200 flex flex-col justify-between">
-      {/* <MailIcon />
-      <FontAwesomeIcon icon="fa-brands fa-linkedin" />
-      <FontAwesomeIcon icon="fa-brands fa-github" /> */}
+      <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
+        <div>
+          <p>Hi</p>
+        </div>
+      </div>
     </div>
   );
 };
