@@ -3,9 +3,9 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Contact from "./components/Contact";
 import About from "./components/About";
-import Portfolio from "./components/Portfolio";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
+import Work from "./components/Work";
 
 library.add(fab);
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Portfolio />
+      <Work />
       <Contact />
     </div>
   );

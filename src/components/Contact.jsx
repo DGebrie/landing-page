@@ -30,8 +30,15 @@ function Contact() {
 
   return (
     <div class="grid min-h-screen place-items-center bg-zinc-300" id="contact">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4  border-pink-600">
+            Contact
+          </p>
+          <p className="py-6"> Let's connect!</p>
+        </div>
+      </div>
       <div class="w-11/12 p-12 sm:w-8/12 md:w-1/2 lg:w-5/12">
-        <h1 class="text-xl font-semibold">Let's connect</h1>
         <form class="mt-6" ref={form} onSubmit={sendEmail}>
           <div class="flex justify-between gap-3">
             <span class="w-1/2">
