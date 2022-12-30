@@ -1,11 +1,13 @@
 import React from "react";
-import FlashcardApp from "../assets/images/flashcardApp.png";
-import DejensSporting from "../assets/images/dejens-sporting1.png";
+// import DejensSporting from "../assets/images/dejens-sporting1.png";
 //import screenshots of projects
+import FlashcardApp from "../assets/images/flashcardApp.png";
+import TasteBudsSearch from "../assets/images/TasteBudsSearch.png";
+import DejensSportingGoods from "../assets/images/DejensSportingGoods.png";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen ">
+    <div name="work" className="w-full md:h-screen bg-zinc-300">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col  w-full h-full">
         <div className="pb-8 text-center">
           <p
@@ -45,7 +47,7 @@ const Work = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${DejensSporting})` }}
+            style={{ backgroundImage: `url(${DejensSportingGoods})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -75,21 +77,21 @@ const Work = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${FlashcardApp})` }}
+            style={{ backgroundImage: `url(${TasteBudsSearch})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React Js
+                Recipe App
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://dejen-tastebuds.netlify.app" target="blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/DGebrie/tastebuds" target="blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
