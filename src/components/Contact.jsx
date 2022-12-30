@@ -29,7 +29,7 @@ function Contact() {
   };
 
   return (
-    <div class="grid min-h-screen place-items-center bg-zinc-300" id="contact">
+    <div class="grid min-h-screen place-items-center " id="contact">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8 text-center">
           <p className="text-4xl font-bold inline border-b-4  border-pink-600 ">
