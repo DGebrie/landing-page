@@ -1,5 +1,6 @@
 import React from "react";
-import FlashcardApp from "../assets/images/FlashcardApp.jpg";
+import FlashcardApp from "../assets/images/flashcardApp.png";
+import DejensSporting from "../assets/images/dejens-sporting1.png";
 //import screenshots of projects
 
 const Work = () => {
@@ -34,7 +35,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/DGebrie/sports-store">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -44,21 +45,27 @@ const Work = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${FlashcardApp})` }}
+            style={{ backgroundImage: `url(${DejensSporting})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React Js
+                E-Commerce Store
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a
+                  href="https://dejens-sporting-goods.netlify.app/"
+                  target="blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  href="https://github.com/DGebrie/sports-store"
+                  target="blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
