@@ -10,15 +10,13 @@ const Navbar = () => {
       <div className="px-2 flex justify-between items-center w-full h-full">
         <div className="flex items-center">
           <a href="#">
-            <h1 className="text-3xl font-bold mr-4 sm:text-4xl">Icon</h1>
+            <h1 className="text-3xl font-bold mr-4 sm:text-4xl">DMG</h1>
           </a>
           <ul className="hidden md:flex">
             <a href="#">
               <li>Home</li>
             </a>
-            <a href="#about">
-              <li>About</li>
-            </a>
+
             <a href="#work">
               <li>Portfolio</li>
             </a>
