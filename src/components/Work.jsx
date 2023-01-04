@@ -35,7 +35,7 @@ const Work = () => {
               <div className="pt-8 text-center">
                 <a
                   href="https://piggybank-budgeting.netlify.app/"
-                  target="blank"
+                  target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -43,7 +43,7 @@ const Work = () => {
                 </a>
                 <a
                   href="https://github.com/DGebrie/piggybankbudget"
-                  target="blank"
+                  target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
@@ -65,7 +65,7 @@ const Work = () => {
               <div className="pt-8 text-center">
                 <a
                   href="https://dejens-sporting-goods.netlify.app/"
-                  target="blank"
+                  target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -73,7 +73,7 @@ const Work = () => {
                 </a>
                 <a
                   href="https://github.com/DGebrie/sports-store"
-                  target="blank"
+                  target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
@@ -93,12 +93,12 @@ const Work = () => {
                 Recipe Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://dejen-tastebuds.netlify.app" target="blank">
+                <a href="https://dejen-tastebuds.netlify.app" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/DGebrie/tastebuds" target="blank">
+                <a href="https://github.com/DGebrie/tastebuds" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
