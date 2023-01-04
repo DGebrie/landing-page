@@ -17,7 +17,7 @@ const Work = () => {
           >
             Work
           </p>
-          <p className="py-6"> Here are a few of my projects ...</p>
+          {/* <p className="py-6"> Here are a few of my projects ...</p> */}
         </div>
 
         {/* Container */}

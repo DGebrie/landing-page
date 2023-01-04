@@ -35,7 +35,7 @@ const Navbar = () => {
           <li className="border-b-2 border-zinc-300 w-full">Home</li>
         </a>
         <a></a>
-        <li className="border-b-2 border-zinc-300 w-full">About</li>
+        {/* <li className="border-b-2 border-zinc-300 w-full">About</li> */}
         <li className="border-b-2 border-zinc-300 w-full">Portfolio</li>
         <a href="#contact">
           <li className="border-b-2 border-zinc-300 w-full">Contact</li>
