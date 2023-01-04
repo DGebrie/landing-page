@@ -35,7 +35,6 @@ function Contact() {
           <p className="text-4xl font-bold inline border-b-4  border-pink-600 ">
             Contact
           </p>
-          {/* <p className="py-6"> Let's connect!</p> */}
         </div>
 
         <div className="mx-[20%]">
