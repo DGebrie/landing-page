@@ -31,12 +31,13 @@ const Navbar = () => {
       </div>
 
       <ul className={!nav ? "hidden" : "absolute bg-zinc-200 w-full px-8"}>
-        <a href="#home">
+        <a href="#">
           <li className="border-b-2 border-zinc-300 w-full">Home</li>
         </a>
-        <a></a>
+        <a href="#work">
+          <li className="border-b-2 border-zinc-300 w-full">Portfolio</li>
+        </a>
         {/* <li className="border-b-2 border-zinc-300 w-full">About</li> */}
-        <li className="border-b-2 border-zinc-300 w-full">Portfolio</li>
         <a href="#contact">
           <li className="border-b-2 border-zinc-300 w-full">Contact</li>
         </a>
