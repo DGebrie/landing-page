@@ -28,7 +28,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Budget Tool
               </span>
@@ -55,7 +55,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
                 E-Commerce Store
               </span>
@@ -85,7 +85,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Recipe Application
               </span>
